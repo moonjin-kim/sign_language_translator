@@ -1,0 +1,10 @@
+1.아나콘다 설치
+
+2.Anaconda Prompt 실행
+
+3.필요라이브러리 설치
+pip3 install opencv-python
+pip3 install PyQt5
+pip install tensorflow
+pip install mediapipe
+pip install requests
