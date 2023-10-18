@@ -23,3 +23,11 @@ https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=120&topMenu=100&aihubDat
 웹 캠을 통하여 사용자의 동작을 읽어 수어 한 말을 읽을 수 있습니다
 
 <img width="80%" src="https://github.com/moonjin-kim/sign_language_translator/assets/69244467/af1af318-c6f2-41ce-823f-42caac8f663a"/>
+
+### 딥러닝 기반 수어 번역 모델
+수어 동영상 데이터를 프레임 단위로 키포인트를 추출하여 LSTM 시계열 데이터로 학습시켰습니다.\
+<img width="80%" src="img/image.png" style="background-color:#ffffff"/>
+
+\
+길이가 다른 수어들을 프레임을 추가하고 삭제하는 방식으로 데이터의 길이를 맞추어 주었습니다.
+<img width="80%" src="img/image-1.png" style="background-color:#ffffff"/>
